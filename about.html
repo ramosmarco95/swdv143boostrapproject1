@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<!--Marco Ramos 
+ date-->
+<html lang="en">
+<head>
+  <Title>about page</Title>
+  <meta name="author" content="Marco"/>
+  <meta charset="UTF-8"/>
+  <meta name="description" content="Marco RF software app designer Boise Idaho"/>
+  <meta name="Keywords" content="client-site server-site software developer programmer"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="css/main.css">
+</head>
+<body>
+
+  <!-- NAV -->
+  <nav class="navbar navbar-expand-sm navbar-dark bg-dark">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="landing_page.html">Blog Logo</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mynavbar">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="mynavbar">
+        <ul class="navbar-nav me-auto">
+          <li class="nav-item">
+            <a class="nav-link" href="index.html">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="about.html">About</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="blog.html">Blog</a>
+          </li>
+        </li>  
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown">Menu</a>
+          <ul class="dropdown-menu">
+            <li><a class="dropdown-item" href="login.html">Login</a></li>
+            <li><a class="dropdown-item " href="subscribe_form.html">Subscribe</a></li>
+            <li><a class="dropdown-item " href="contact_form.html">Contact Us</a></li>
+          </ul>
+        </li>
+        </ul>
+        <form class="d-flex">
+          <input class="form-control me-2" type="text" placeholder="Search">
+          <button class="btn btn-primary" type="button">Search</button>
+        </form>
+      </div>
+    </div>
+  </nav>
+
+  <!-- ABOUT -->
+   <div class="container text-center m-5 mx-auto">
+    <h1 class="">About This Page</h1>
+    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Accusamus sint, atque maxime voluptates cumque optio expedita soluta ea magni totam vitae iusto repellat et fugit suscipit, fugiat corporis! Repellendus, deleniti?
+    Inventore id dolor quisquam consequatur ex quas modi quae accusantium voluptate autem vel esse repellat, tenetur soluta suscipit minus placeat veniam. Molestias quo veniam facere dolor reprehenderit asperiores eos culpa.
+    Ratione, corporis. Exercitationem, unde tempore suscipit amet numquam odio recusandae corporis. Fuga fugit facere, tenetur fugiat sequi esse maxime soluta doloremque nobis modi sapiente exercitationem, cupiditate quisquam est hic molestias?
+    Modi magnam eaque rerum molestiae quos magni, illum asperiores aperiam? Facere perspiciatis fugiat id excepturi minus dignissimos odio dolore aspernatur ratione, aperiam officiis dolores accusamus dolorem ipsam recusandae assumenda ipsum!
+    Iste quibusdam laborum animi nostrum adipisci! Nam, perspiciatis magnam blanditiis quis nesciunt quod cum, incidunt ex deleniti repellat voluptas perferendis dolore sunt ad atque, rerum exercitationem vitae minima quia corrupti!</p>
+   </div>
+   <div class="conatainer text-center">
+    <h2>Our Team</h2>
+    <div class="container-fluid row m-2">
+      <div class="col-4 border border-1">
+        <div class="container">
+          <img src="images/profile_img.jpg" class="img-fluid img-thumbnail" alt="">
+        </div>
+        <h2>Jane Doe</h2>
+        <p>CEO & Founder</p>
+        <p>Some text that describes me lorem ipsum ipsum lorem.</p>
+        <p>jane@example.com</p>
+        <p><button class="btn btn-success" onclick="openContactForm()">Contact</button></p>
+      </div>
+      <div class="col-4 border border-1">
+        <div class="container">
+          <img src="images/profile_img.jpg" class="img-fluid img-thumbnail" alt="">
+        </div>
+        <h2>Mike Ross</h2>
+        <p>Art Director</p>
+        <p>Some text that describes me lorem ipsum ipsum lorem.</p>
+        <p>mike@example.com</p>
+        <p><button class="btn btn-success" onclick="openContactForm()">Contact</button></p>
+      </div>
+      <div class="col-4 border border-1">
+        <div class="container">
+          <img src="images/profile_img.jpg" class="img-fluid img-thumbnail" alt="">
+        </div>
+        <h2>John Doe</h2>
+        <p>Designer</p>
+        <p>Some text that describes me lorem ipsum ipsum lorem.</p>
+        <p>john@example.com</p>
+        <p><button class="btn btn-success" onclick="openContactForm()">Contact</button></p>
+      </div>
+    </div>
+   </div>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+<script src="js/main.js"></script>
+<script>
+  function openContactForm() {
+    window.location.href = `contact_form.html`
+  }
+</script>
+</body>
+</html>

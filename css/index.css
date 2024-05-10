@@ -1,0 +1,16 @@
+.img_container {
+    position: relative;
+    background-size: cover; /* Adjust as needed */
+    background-position: center; /* Adjust as needed */
+  }
+
+  .content {
+    position: absolute;
+    top: 50%; /* Adjust as needed */
+    left: 20%; /* Adjust as needed */
+    transform: translate(-50%, -50%);
+    z-index: 1; /* Ensure content is on top of the background */
+    /* Additional styling for content */
+    padding: 20px;
+
+  }
